@@ -1,0 +1,10 @@
+/node_modules
+.next/
+.vinext/
+.vite/
+out/
+dist/
+.sites-runtime/
+.env*
+next-env.d.ts
+*.tsbuildinfo

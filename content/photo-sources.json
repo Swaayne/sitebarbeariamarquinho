@@ -1,0 +1,101 @@
+[
+  {
+    "role": "hero",
+    "filename": "barber-hero.webp",
+    "photo": "photo-1598280601605-a42e1b3db108",
+    "width": 2200,
+    "source_page": "https://unsplash.com/photos/people-sitting-on-barbers-chair-KbDgdtR-hZg",
+    "photographer": "Danny De Vylder",
+    "description": "Wide, warm vintage barbershop with two barbers working on clients. Busy background suits a dark gradient overlay.",
+    "local_path": "/workspace/scratch/514161c632fd/photo-candidates/barber-hero.webp",
+    "image_url": "https://images.unsplash.com/photo-1598280601605-a42e1b3db108?w=2200&q=88&fm=jpg",
+    "pixel_dimensions": [
+      1920,
+      1282
+    ],
+    "bytes": 519304,
+    "license": "Unsplash License, free for commercial and noncommercial use; attribution appreciated but not required.",
+    "license_url": "https://unsplash.com/license",
+    "usage_note": "Illustrative stock only. Do not present as Barbearia do Marquinhos premises, team, customers, or portfolio."
+  },
+  {
+    "role": "about",
+    "filename": "barber-interior.webp",
+    "photo": "photo-1536520843734-bfb7a8a3ebcf",
+    "width": 1600,
+    "source_page": "https://unsplash.com/photos/empty-black-leather-padded-chairs-gX-2La5XAso",
+    "photographer": "Jason Leung",
+    "description": "Warm, dark barbershop interior with black chairs and golden lights.",
+    "local_path": "/workspace/scratch/514161c632fd/photo-candidates/barber-interior.webp",
+    "image_url": "https://images.unsplash.com/photo-1536520843734-bfb7a8a3ebcf?w=1600&q=88&fm=jpg",
+    "pixel_dimensions": [
+      1600,
+      1067
+    ],
+    "bytes": 122760,
+    "license": "Unsplash License, free for commercial and noncommercial use; attribution appreciated but not required.",
+    "license_url": "https://unsplash.com/license",
+    "usage_note": "Illustrative stock only. Do not present as Barbearia do Marquinhos premises, team, customers, or portfolio."
+  },
+  {
+    "role": "gallery fade",
+    "filename": "barber-fade.webp",
+    "photo": "photo-1647140655214-e4a2d914971f",
+    "width": 1200,
+    "source_page": "https://unsplash.com/photos/a-man-cutting-another-mans-hair-with-a-pair-of-scissors-tgPrIYnW3g4",
+    "photographer": "Nate Johnston",
+    "description": "Dark close-up of barber shaping a fade with shears and a white comb.",
+    "local_path": "/workspace/scratch/514161c632fd/photo-candidates/barber-fade.webp",
+    "image_url": "https://images.unsplash.com/photo-1647140655214-e4a2d914971f?w=1200&q=88&fm=jpg",
+    "pixel_dimensions": [
+      1200,
+      1500
+    ],
+    "bytes": 66206,
+    "license": "Unsplash License, free for commercial and noncommercial use; attribution appreciated but not required.",
+    "license_url": "https://unsplash.com/license",
+    "usage_note": "Illustrative stock only. Do not present as Barbearia do Marquinhos premises, team, customers, or portfolio."
+  },
+  {
+    "role": "gallery beard",
+    "filename": "barber-beard.webp",
+    "photo": "photo-1517832606299-7ae9b720a186",
+    "width": 1200,
+    "source_page": "https://unsplash.com/photos/fE42nRlBcG8",
+    "source_catalog": "https://unsplash.com/s/photos/beard-trim",
+    "verified_download": "https://unsplash.com/photos/fE42nRlBcG8/download?force=true",
+    "photographer": "Nathon Oski",
+    "description": "Black-and-white close-up of beard trimming with scissors. Photographer and photo ID verified via Unsplash catalog and download redirect.",
+    "local_path": "/workspace/scratch/514161c632fd/photo-candidates/barber-beard.webp",
+    "image_url": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=1200&q=88&fm=jpg",
+    "pixel_dimensions": [
+      1200,
+      1807
+    ],
+    "bytes": 84982,
+    "license": "Unsplash License, free for commercial and noncommercial use; attribution appreciated but not required.",
+    "license_url": "https://unsplash.com/license",
+    "usage_note": "Illustrative stock only. Do not present as Barbearia do Marquinhos premises, team, customers, or portfolio."
+  },
+  {
+    "role": "gallery tools",
+    "filename": "barber-tools.webp",
+    "photo": "photo-1678356163587-6bb3afb89679",
+    "width": 1400,
+    "source_page": "https://unsplash.com/photos/5WttPbwX73c",
+    "source_catalog": "https://unsplash.com/s/photos/barber-tools",
+    "verified_download": "https://unsplash.com/photos/5WttPbwX73c/download?force=true",
+    "photographer": "Federico Tonini",
+    "description": "Gold electric clipper, black brush, combs and scissors on a wood counter. Photographer and photo ID verified via Unsplash catalog and download redirect.",
+    "local_path": "/workspace/scratch/514161c632fd/photo-candidates/barber-tools.webp",
+    "image_url": "https://images.unsplash.com/photo-1678356163587-6bb3afb89679?w=1400&q=88&fm=jpg",
+    "pixel_dimensions": [
+      1400,
+      933
+    ],
+    "bytes": 79176,
+    "license": "Unsplash License, free for commercial and noncommercial use; attribution appreciated but not required.",
+    "license_url": "https://unsplash.com/license",
+    "usage_note": "Illustrative stock only. Do not present as Barbearia do Marquinhos premises, team, customers, or portfolio."
+  }
+]
