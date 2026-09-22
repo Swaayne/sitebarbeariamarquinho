@@ -29,7 +29,29 @@ Os arquivos visuais do repositório foram comparados com a exportação original
 - CSS: idêntico ao original, exceto pelos caminhos das fontes.
 - Bytes de todas as imagens, fontes e favicon: idênticos aos originais.
 
-A prévia local de navegador não iniciou neste ambiente por uma limitação de acesso às dependências. Os testes locais acima não equivalem a uma sessão interativa em um celular real. Após publicar, confira menu mobile, galeria, FAQ e abertura do WhatsApp no aparelho.
+## Validação no GitHub e no navegador
+
+Em 22/09/2026, o workflow [35684236286](https://github.com/Swaayne/sitebarbeariamarquinho/actions/runs/35684236286), no commit `ee5d9313fba73ce60e25dd1320c3e16aec33b5ee`, concluiu com sucesso:
+
+- Instalação limpa com `pnpm install --frozen-lockfile`.
+- Build da raiz: 74 referências locais verificadas.
+- Build com `/sitebarbeariamarquinho`: 74 referências locais verificadas.
+- Upload do artefato e publicação no GitHub Pages.
+
+A configuração original do pnpm foi restaurada em `pnpm-workspace.yaml` e `.npmrc`. O arquivo de workspace contém o override exigido pelo lockfile; sua ausência causou o erro de instalação detectado na primeira execução de CI.
+
+O site publicado em https://swaayne.github.io/sitebarbeariamarquinho/ foi aberto no navegador e revisado em largura de 1363 px:
+
+- Visual, cores, fontes Inter/Barlow e foto principal carregados; sem rolagem horizontal.
+- Todas as fotos carregadas após navegar pelas seções.
+- Navegação por âncoras, ampliação da galeria, fechamento com Escape e abertura do FAQ funcionando.
+- Google Maps abriu o endereço informado em Indaiatuba.
+- O botão de agendamento encaminhou ao aplicativo WhatsApp com o telefone e a mensagem corretos. O navegador de teste não abre o protocolo externo `whatsapp://`; nenhuma mensagem foi enviada.
+- Nenhum erro do código do site apareceu no console durante esses testes.
+
+A prévia local não iniciou neste ambiente e o navegador disponível não permitiu reduzir a largura para uma nova sessão de teste mobile. O CSS responsivo e os componentes de menu originais foram preservados; o teste interativo em largura de celular permanece pendente. Confira o menu e a abertura do WhatsApp no aparelho antes da apresentação ao cliente.
+
+O deploy no Netlify depende de conectar o repositório à conta do usuário. O build de raiz foi validado localmente e no GitHub, mas uma publicação real no Netlify ainda não foi executada.
 
 ## Validação automática em cada alteração
 

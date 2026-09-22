@@ -14,6 +14,8 @@ O workflow `.github/workflows/pages.yml` roda a cada push para `main`. Ele testa
 
 O `.nojekyll` está em `public/` e é copiado para `out/`. O workflow envia diretamente o artefato estático, preservando `_next` e dispensando o Jekyll. O resultado não deve ser publicado com a opção antiga **Deploy from a branch**.
 
+No repositório corrigido, o novo workflow já publicou com sucesso. Ainda apareceu também a execução antiga `pages build and deployment`: selecione **GitHub Actions** em **Source** para evitar duas publicações concorrentes. Essa configuração é feita uma vez no painel; não precisa ser repetida a cada push.
+
 Se mudar o nome do repositório, rode o workflow novamente. Se mudar a branch principal de `main`, ajuste os dois filtros de branch do workflow e a branch de produção no Netlify.
 
 ## Netlify: configuração inicial
@@ -39,6 +41,8 @@ Se o projeto já estiver conectado, confira esses campos em **Project configurat
 Não há redirecionamento geral de todas as URLs para `index.html`: o site usa âncoras na mesma página e a exportação inclui uma página 404. Os assets com hash recebem cache longo, configurado no `netlify.toml`.
 
 ## Como atualizar
+
+Se você já tinha uma cópia local anterior a esta correção, execute `git pull` antes de começar a editar, para receber o código e as configurações enviados ao GitHub. Preserve eventuais alterações locais antes de atualizar.
 
 Altere o código ou os arquivos de `public/`, salve e execute:
 
